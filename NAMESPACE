@@ -5,4 +5,19 @@ exportPattern(".")
 import(
   evir
 )
+importFrom("graphics", "abline", "hist", "lines", "par", "plot")
+importFrom("stats", "dgamma", "median", "pgamma", "qgamma", "quantile", 
+"rgamma", "rnorm", "runif", "sd", "var")
+
+S3method(plot, gevp)
+S3method(plot, ggevp)
+S3method(plot, gpdp)
+S3method(plot, gumbelp)
+S3method(plot, normalp)
+
+S3method(summary, gevp)
+S3method(summary, ggevp)
+S3method(summary, gpdp)
+S3method(summary, gumbelp)
+
 

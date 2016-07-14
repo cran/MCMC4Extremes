@@ -19,6 +19,6 @@ These data are the daily returns of ibovespa from 2000 to 2009.
 }
 \examples{
 data(ibovespa)
-hist(ibovespa[,4])
+hist(ibovespa[,4], main=NULL)
 }
 \keyword{datasets}

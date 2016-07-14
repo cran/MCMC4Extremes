@@ -13,6 +13,6 @@ A numeric vector containing 864 observations.
 }
 \examples{
 data(fajardo)
-hist(fajardo)
+hist(fajardo, main=NULL)
 }
 \keyword{datasets}

@@ -17,6 +17,6 @@ These data are the monthly maximum river quota of Gurgueia River, in Brazil, fro
 }
 \examples{
 data(gurgueia)
-hist(gurgueia[,2])
+hist(gurgueia[,2], main=NULL)
 }
 \keyword{datasets}

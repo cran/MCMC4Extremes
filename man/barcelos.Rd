@@ -13,6 +13,6 @@ A numeric vector containing 918 observations.
 }
 \examples{
 data(barcelos)
-hist(barcelos)
+hist(barcelos, main=NULL)
 }
 \keyword{datasets}
